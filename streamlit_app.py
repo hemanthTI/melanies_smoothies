@@ -13,7 +13,7 @@ st.write(
 )
 
 # st.write("You favorite fruit is:", option)
-st.text(smoothiefroot_response)
+st.text(smoothiefroot_response.json())
 
 name_on_order = st.text_input('Name of the Smoothie:')
 st.write("The name of your Smoothie will be:", name_on_order)
